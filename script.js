@@ -30,13 +30,13 @@ onSpeak = (e) => {
 
     writeMessage(msg);
     checkNumber(msg);
-    };
+};
 
 //Listen for the result event
 recognition.addEventListener('result', onSpeak);
 
 
- // diplay msg to the screen
+// diplay msg to the screen
 writeMessage = (msg) => {
     msgEl.innerHTML = `
     <div>You Said: </div>
